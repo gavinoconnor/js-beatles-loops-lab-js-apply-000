@@ -1,3 +1,4 @@
+// theBeatlesPlay accepts two parameters, loops over an array of musicans.
 var theBeatlesPlay = function(musicians, instruments) {
     const theBeatles = []
 
@@ -6,7 +7,7 @@ var theBeatlesPlay = function(musicians, instruments) {
     }
     return theBeatles
 }
-
+// johnLennonFacts accepts an array of facts, and adds '!!!' to the end of each fact.
 var johnLennonFacts = function(factsArray) {
   const facts = []
   var i = 0
@@ -17,7 +18,7 @@ var johnLennonFacts = function(factsArray) {
   }
   return facts
 }
-
+// iLoveTheBeatles accepts a number and adds a string to an array while the number is less than 15.
 var iLoveTheBeatles = function(n) {
   var beatlesArray = []
 
