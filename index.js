@@ -11,7 +11,7 @@ var johnLennonFacts = function(factsArray) {
   const facts = []
   var i = 0
 
-  while (factsArray.length > i) {
+  while (i < factsArray.length) {
     facts.push(`${factsArray[i]}!!!`)
     i++
   }
@@ -19,11 +19,11 @@ var johnLennonFacts = function(factsArray) {
 }
 
 var iLoveTheBeatles = function(n) {
-  var loveBeatles = []
+  var beatlesArray = []
 
   do {
-    loveBeatles.push(`I love the Beatles!`)
+    beatlesArray.push(`I love the Beatles!`)
     n++
   } while (n < 15)
-  return loveBeatles
+  return beatlesArray
 }
